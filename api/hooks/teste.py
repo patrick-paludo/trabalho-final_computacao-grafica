@@ -1,2 +1,5 @@
-def teste(name, age):
-  return "Nome: " + name + " - Idade: " + age
+import random
+
+hash = random.getrandbits(128)
+
+print(hash)
